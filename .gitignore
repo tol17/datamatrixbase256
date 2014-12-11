@@ -1,0 +1,4 @@
+### NetBeans ###
+nbproject/
+vendor/
+composer.lock

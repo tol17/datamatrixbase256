@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 5, 2014, 4:08:16 PM
+    Author     : Админ
+*/
+@media print {
+    .noprint {
+        display: none;
+    }
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+}
+
+
+.form-group {
+    margin-top: 15px;
+}
+.formcontainer {
+    border: 1px dotted #888;
+    padding: 10px;
+    border-radius: 10px;
+}
+.formtitle {
+    background-color: #fff;
+    position: relative;
+    left: 10px;
+    top: -20px;
+    width: 300px;
+}
+.postcontainer {
+    position: relative;
+    width: 800px;
+    margin: auto;
+}
+.datamatrix {
+    position: absolute;
+    right:  80px;
+    top: 30px;
+}
+.datamatrix img{
+    width: 140px;
+}

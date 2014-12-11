@@ -1,0 +1,23 @@
+{
+	"name": "Russian Post Form",
+	"version": "0.0.1",
+	"homepage": "http://www.mcentre.spb.ru/",
+	"type": "library",
+	"description": "Russian Post form generate datamatrix Base256 barcode. Based on tcpdf library",
+	"keywords": ["Russian Post office","tcpdf","datamatrix base256"],
+	"license": "LGPLv3",
+	"authors": [
+	{
+		"name": "Anatoly Smirnov",
+		"email": "tol171@yandex.ru",
+		"homepage": "http://mcentre.spb.ru"
+	}
+	],
+        "config": {
+            "preferred-install" : "dist"
+        },
+	"require": {
+            "php": ">=5.4.0", 
+            "tecnick.com/tcpdf": "~6.0@stable"
+        }
+}
