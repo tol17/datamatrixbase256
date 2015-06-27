@@ -21,8 +21,11 @@ File: postblank.php - почтовый бланк с datamatrix кодом.
 Example for paste datamatrix in TCPDF doc
 =================
 
+Если бланк наложенного платежа генерируется в формате pdf с помощью tcpdf
+
 $pdf - inctance of Tcpdf object
 
 $png = (new TCPDF2DDatamatrixBarcode($dataMatrixValue))->getBarcodePngData(40, 40);
+
 $pdf->Image('@' . $png, 130, 3, 40, 40, 'PNG', '', 'T', true, 300);
 
