@@ -408,7 +408,7 @@ class PostForm {
     private function clearField($data){
         $input_text = strip_tags($data);
         $input_text = htmlspecialchars($input_text);
-        $input_text= mysql_escape_string($input_text);
+        $input_text = str_replace('!', '', $input_text);
         return $input_text;
     }
     
