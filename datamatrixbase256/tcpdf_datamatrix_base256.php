@@ -32,7 +32,11 @@ class TCPDF2DDatamatrixBarcode extends TCPDF2DBarcode{
 		$this->setBarcode($code);
 	}
 	
-	public function setBarcode($code) {
+	public function setBarcode($code, $type = 'DATAMATRIX') {
+	    if($type !== 'DATAMATRIX') {
+    	    return parent::setBarcode($code, $type);
+	    }
+	
 		$qrcode = new DatamatrixBase256($code);
                 $this->barcode_array = $qrcode->getBarcodeArray();
                 $this->barcode_array['code'] = $code;

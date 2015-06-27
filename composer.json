@@ -19,5 +19,10 @@
 	"require": {
             "php": ">=5.4.0", 
             "tecnick.com/tcpdf": "~6.0@stable"
-        }
+        },
+    "autoload": {
+        "classmap": [
+            "datamatrixbase256/"
+        ]
+    }
 }

@@ -2,8 +2,6 @@
 
 require 'vendor/autoload.php';
 require_once("postform.php");
-require_once("datamatrixbase256/datamatrixbase256.php");
-require_once("datamatrixbase256/tcpdf_datamatrix_base256.php");
 require_once("datamatriximg.php");
 
 $pf = new PostForm();
