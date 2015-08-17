@@ -1,5 +1,5 @@
 {
-	"name": "Russian Post Form",
+	"name": "russianpost/datamatrixbase256",
 	"version": "0.0.1",
 	"homepage": "http://www.mcentre.spb.ru/",
 	"type": "library",
@@ -19,5 +19,10 @@
 	"require": {
             "php": ">=5.4.0", 
             "tecnick.com/tcpdf": "~6.0@stable"
-        }
+        },
+    "autoload": {
+        "classmap": [
+            "datamatrixbase256/"
+        ]
+    }
 }
